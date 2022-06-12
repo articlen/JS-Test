@@ -1,0 +1,19 @@
+
+.css{
+font-style: oblique;
+font-size: 12px;
+text-transform: none;
+text-decoration: line-through;
+}
+.font{
+    font-family: 'Charis SIL', serif;
+    font-weight: 700;
+    color: #FF0000;
+}
+.font-almatic{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color: #0000FF;
+    box-sizing: border-box;
+}
