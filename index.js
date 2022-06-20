@@ -3,7 +3,7 @@
 console.log("world");
 console.log(6+9);
 // alert('snoska')
-
+console.log("вывести текст2");
 // вывести текст
 function greet() {
     return("hello world!");
@@ -11,6 +11,7 @@ function greet() {
   console.log(greet());
 
 // проверить функцию делится ли на целое
+console.log("проверить функцию делится ли на целое3");
 function isDivideBy(number, a, b) {
   var number, a, b;
 if(number % a == 0 && number % b == 0){
@@ -23,6 +24,7 @@ else{
 console.log(isDivideBy(22, -2, 11));
 
 // заглавная буква
+console.log("заглавная буква4");
 function capitalizeWord(word) {
   
   word = word[0].toUpperCase() + word.slice(1, word.length);  
@@ -60,6 +62,7 @@ let numberToString2 =  (num) => num = String(num);
 console.log(numberToString2(34));
 
 // строку в число
+
 var stringToNumber = function(str){
 return Number(str);
   
@@ -283,6 +286,76 @@ const getGreetingMessage2 = (name) => {
 console.log(getGreetingMessage2("jkl67"))
 
 // console.log(a);
+
+// =====================
+// Test JScript
+let rew;
+rew=("13px"<"14");
+console.log(rew);
+
+
+console.log(isNaN(Infinity));
+console.log(Math.pow(2,4));
+
+
+console.log(isNaN());
+
+let name = "Vasia";
+name.lenght = 50;
+console.log(name.lenght = 50);
+
+console.log(typeof(Infinity));
+
+
+
+
+console.log([1,2,3,4,5].length);
+
+console.log(String.fromCharCode(59));
+console.log("1"+2);
+// определить тип данных
+let rs = 'true';
+console.log(typeof(rs));
+
+let v = 5; 
+console.log(++v); 
+console.log(v++);
+
+console.log(3**3);
+
+console.log(+'4' + +'5');
+console.log(+79);
+
+// определить тип данных
+console.log(typeof('Hey'));
+console.log(typeof(""));
+console.log(typeof('Undefined'));
+console.log(typeof("Hello"));
+console.log(typeof(''));
+console.log(typeof("null"));
+
+for (let i = 0; i <= 4; i++) 
+{console.log(++i);}
+
+// последний символ в переменной
+let message = "ghjut"
+console.log(message[message.length - 1]);
+
+console.log('4' * '9');
+
+let x = ''; let n = 9; let m = null;
+console.log(!!(!x || !n && !m));
+console.log(!!(x || !n && !m));
+console.log(!!(x || !n || m));
+console.log(!(!x && n && !m));
+console.log(!(x || !n && !m));
+
+let hty = "hghghghg";
+console.log(typeof hty);
+
+console.log((8 / 2 + 5 - -3 / 2));
+
+console.log(10 % 52);
 
 // module.exports = 
 // function toReadable (number) {
